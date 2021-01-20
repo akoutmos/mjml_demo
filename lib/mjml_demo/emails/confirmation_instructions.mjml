@@ -1,0 +1,28 @@
+<mjml>
+  <mj-body background-color="#ffffff">
+    <mj-section background-color="#ffffff" padding-bottom="0px" padding-top="0">
+      <mj-column vertical-align="top" width="100%">
+        <mj-image src="https://images.unsplash.com/photo-1527247043589-98e6ac08f56c?width=600&crop=fit" align="center" border="none" width="600px" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="0"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#009FE3" padding-bottom="0px" padding-top="0">
+      <mj-column vertical-align="top" width="100%">
+        <mj-text align="left" color="#ffffff" font-size="36px" font-weight="bold" font-family="open Sans Helvetica, Arial, sans-serif" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="50px">Welcome to SaaS-Central!</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#009fe3" padding-bottom="20px" padding-top="20px">
+      <mj-column vertical-align="middle" width="100%">
+        <mj-text align="left" color="#ffffff" font-size="22px" font-family="open Sans Helvetica, Arial, sans-serif" padding-left="25px" padding-right="25px">
+          <span style="color:#FEEB35">Dear {{ first_name }} {{ last_name }}</span>
+        </mj-text>
+
+        <mj-text align="left" color="#ffffff" font-size="20px" font-family="open Sans Helvetica, Arial, sans-serif" padding-left="25px" padding-right="25px" padding-top="20px">
+          Thank you for signing up for a {{ tier }} plan! We're glad to have you onboard. Please click the button below to confirm your account!
+        </mj-text>
+        <mj-button align="center" font-size="22px" padding-top="25px" href="{{ confirmation_url }}" font-weight="bold" background-color="#ffffff" border-radius="10px" color="#1AA0E1" font-family="open Sans Helvetica, Arial, sans-serif">
+          Confirm Account
+        </mj-button>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
